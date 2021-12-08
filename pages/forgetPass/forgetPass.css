@@ -1,0 +1,23 @@
+.forget-pass .form-container{
+    margin-top: 25%;
+}
+.forget-pass .form-container button{
+    margin-top: 30px;
+}
+.forget-pass .form-container p.grey-line{
+    border-bottom: 1px solid #c4c4c4;
+    color: #52575C;
+    padding-bottom: 2rem;
+    width: 70%;
+}
+.forget-pass .form-container p{
+    color: #52575C;
+}
+@media screen and (max-width: 768px){
+    .forget-pass .form-container{
+        margin-top: 45%;
+    }
+    .forget-pass .form-container p.grey-line{
+        width: 95%;
+    }
+}

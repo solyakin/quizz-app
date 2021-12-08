@@ -1,0 +1,352 @@
+.edit-quiz .main-wrapper{
+    height: 100%;
+}
+
+.edit-quiz .main-container{
+    display: flex;
+    margin-bottom: 5rem;
+}
+.edit-quiz .left-content{
+    padding: 30px 50px;
+    flex: .8;
+    background: white;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.edit-quiz h5{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.edit-quiz .text-editor{
+    margin-bottom: 2rem;
+}
+.edit-quiz .tox.tox-tinymce{
+    height: 300px!important;
+    border-radius: 5px;
+}
+.edit-quiz .tox.tox-tinymce .tox-editor-container .tox-editor-header{
+    background: grey!important;
+}
+.edit-quiz .left-content p{
+    color: #25282B;
+    font-weight: 500;
+}
+.image-video, .button, .bottom-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #DFDFFC;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.image-video p{
+    font-weight: 600;
+}
+.image-video img, .button img{
+    width: 40px;
+}
+.sub-category-img{
+    display: none;
+}
+.category-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.category-content{
+    border:  1px solid #DFDFFC;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.category-content_, .category-content_2, .category-content_3{
+    display: none;
+}
+.category-content .cart-tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #DFDFFC;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.cart-tags p{
+    padding: 10px 15px;
+}
+.cart-tags p:first-child{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.edit-quiz .cart-tags .active{
+    background: #5D5FEF;
+    color: white;
+    height: inherit;
+    width: inherit;
+}
+.search-wrapper{
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid #DFDFFC;
+    border-radius: 5px;
+}
+.search-wrapper input{
+    border: none;
+    font-size: 13px;
+    padding: 7px 10px;
+}
+.search-wrapper img{
+    width: 18px;
+    margin-left: 10px;
+}
+.category-content .preset-height{
+    position: relative;
+    height: 600px;
+}
+.img-folder{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    overflow-y: auto;
+    max-height: 100%;
+    padding-right: 15px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.img-folder img{
+    width: 100%;
+}
+.category-content button{
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background: #5D5FEF;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.upload-image{
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+    display: none;  
+}
+#drop-area{
+    border: 2px dashed #DFDFFC;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+#drop-area img{
+    width: 25px;
+    margin: auto;
+    margin-top: 40px;
+}
+#drop-area form{
+    text-align: center;
+}
+#drop-area form label{
+    border-bottom: none;
+    margin: auto;
+}
+#drop-area p.instruction{
+    font-size: 13px;
+    font-style: italic;
+    width: 50%;
+    margin: 15px auto;
+    font-weight: 300;
+}
+#fileElem{
+    display: none;
+}
+#drop-area form p{
+    font-size: 13px;
+    font-weight: 500;
+    justify-content: center;
+}
+progress{
+    margin-bottom: 2rem;
+}
+#drop-area.highlight{
+    border: 2px dashed #5D5FEF;
+}
+
+.paste-url, .paste-url-2, .paste-url-3{
+    width: 80%;
+    margin: 30px auto;
+    display: none;
+}
+.paste-url input, .paste-url-2 input, .paste-url-3 input{
+    width: 100%;
+    border: 1px solid #DFDFFC;
+    padding: 10px;
+    outline: none;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.edit-quiz .paste-url p, .edit-quiz .paste-url-2 p, .edit-quiz .paste-url-3 p{
+    color: #5D5FEF;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-text{
+    border-bottom: none;   
+    margin-top: 30px;
+}
+.bottom-text button{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #DFDFFC;
+    background: transparent;
+    border-radius: 5px;
+}
+.edit-quiz .right-content{
+    flex: .2;
+    background: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 30px 15px;
+    text-align: center;
+}
+.edit-quiz .right-content .content{
+    background: #F9F9F9;
+    border-radius: 5px;
+    padding: 20px 15px;
+}
+.right-content img{
+    margin-bottom: 2.5rem;
+    margin-top: 15px;
+    width: 250px;
+}
+.edit-quiz .right-content button{
+    padding: 6px 10px;
+    color: white;
+    background: #5D5FEF;
+    font-size: 13px;
+    width: 80%;
+    border-radius: 5px;
+}
+.edit-quiz .bottom-btns{
+    text-align: right;
+}
+.edit-quiz .bottom-btns button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #5D5FEF;
+    width: 100px;
+}
+.edit-quiz .bottom-btns button:first-child{
+    margin-right: 30px;
+    background: none;
+    color: #25282B;
+}
+
+
+/* ADD-EDIT RESULT */
+
+.toggle-content, .social-content, .incentive-content, .btns-list{
+    display: none;
+}
+.text-content p{
+    font-size: 10px;
+    color: #25282B;
+    /* margin-top: 1.5rem; */
+}
+.text-content input, select, .incentive-wrapper input, .edit-wrapper input{
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    padding: 10px 7px;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    margin-top: 7px;
+    font-size: 12px;
+    outline: none;
+}
+.text-content .button p{
+    font-size: 14px;
+}
+.social-content select{
+    margin-top: 20px;
+}
+.incentive-wrapper h5, .btns-list h5{
+    margin-bottom: 15px;
+}
+.incentive-content, .btns-list{
+    margin-top: 10px;
+}
+.btns-list h5{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 960px) {
+    .edit-quiz .left-content{
+        padding: 30px 20px;
+        margin-left: 0;
+    }
+    .right-content img{
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 860px) {
+    .edit-quiz .dashboard-tags{
+        display: none;
+    }
+    .edit-quiz .template-main{
+        flex: 1;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .edit-quiz .main-container{
+        display: block;
+    }
+    .left-content{
+        flex: 1;
+    }
+    .edit-quiz .right-content{
+        flex: 1;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 560px){
+    .cart-tags p{
+        padding: 10px;
+        font-size: 11px;
+    }
+    .img-folder{
+        width: 100%;
+        padding: 8px;
+    }
+    .preset-height{
+        height: 100%!important;
+    }
+}
+@media only screen and (max-width: 460px){
+    .cart-tags p{
+        padding: 8px 6px;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,9 @@
+.sign-up .form-container{
+    margin-top: 80px;
+}
+.sign-up .form-container input{
+    margin-bottom: 10px;
+}
+.sign-up .form-container .remember-password p{
+    font-size: 13px;
+}

@@ -1,0 +1,211 @@
+.share-quiz{
+    overflow: hidden;
+}
+.share-quiz .template-main{
+    position: relative;
+    z-index: 1;
+}
+.overlay{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.4);
+    
+}
+.share-quiz .share-box{ 
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 70%;
+    margin: 20px auto;
+    padding: 30px auto;
+    padding-bottom: 1rem;
+}
+.share-box h4{
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 2px solid #DFDFFC;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.share-btns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
+.share-btns .social{
+    border: 1px solid #DFDFFC;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+.social img{
+    width: 80px;
+    height: 80px;
+}
+.share-quiz .bottom-btns{
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 3rem;
+}
+.share-quiz .back a, .embed-quiz .back a{
+    color: black;
+}
+.share-quiz .blank{
+    background: none;
+}
+.share-quiz .quiz-detail{
+    width: 90%;
+    margin: 20px auto;
+}
+.share-quiz .card{
+    padding: 10px;
+}
+.share-quiz a{
+    font-size: 13px;
+}
+@media only screen and (max-width: 960px) {
+    .share-quiz .dashboard-tags{
+        display: none;
+    }
+    .share-quiz .template-main{
+        flex: 1;
+    }
+    .overlay{
+        top: 0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .share-quiz .share-box{
+        max-width: 90%;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .share-btns{
+        width: 90%;
+    }
+    .share-box h4{
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .social img{
+        width: 30px;
+        height: 30px;
+    }
+    .social p{
+        font-size: 12px;
+    }
+    .share-btns .social{
+        padding: 10px 0;
+    }
+    .share-quiz .bottom-btns{
+        margin-top: 20px;
+    }
+    .share-quiz .blank{
+        margin-right: 70px;
+    }
+}
+
+/*  =================================
+        ********embed-quiz********
+    ================================= */
+.embed-quiz{
+    overflow: auto;
+}
+.embed-quiz .overlay{
+    height: 1200px;
+}
+.embed-quiz .card a{
+    color: #484848;
+}
+.embed-quiz .card .blue{
+    color: royalblue;
+}
+
+/*  =================================
+        ********embed-web********
+    ================================= */
+
+.setting-embed .schedule{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 15px auto;
+}
+.setting-embed .schedule-btn{
+    display: flex;
+    align-items: center;
+} 
+.schedule-btn img{
+    width: 30px;
+    margin-left: 30px;
+}
+.setting-embed .embed-text{
+    width: 80%;
+    height: 180px;
+    margin: 20px auto;
+    border: 2px dashed #c4c4c4;
+    border-radius: 5px;
+}
+.setting-embed button{
+    background: #5D5FEF;
+    color: white;
+    border-radius: 5px;
+}
+.setting-embed .select-btns{
+    align-items: left;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    margin-bottom: 2.5rem;
+}
+.select-btns select{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #c4c4c4;
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.overlay .hosted-link .embed-text{
+    height: 60px;
+}
+.overlay .hosted-link{
+    text-align: left;
+    margin-top: 4rem;
+}
+.overlay .hosted-link button{
+    margin-left: 10%;
+}
+@media only screen and (max-width: 768px){
+    .setting-embed .select-btns{
+        padding-left: 10px;
+    }
+    .setting-embed .schedule{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .embed-quiz .share-btns{
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .embed-quiz .card{
+        min-height: 181px;
+    }
+    .share-box h4{
+        font-size: .8rem;
+    }
+    .select-btns select{
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}

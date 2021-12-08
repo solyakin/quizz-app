@@ -1,0 +1,88 @@
+.account{
+    padding-left: 8%;
+    padding-left: 40px;
+}
+.account .user_profile, .account .password{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+    height: 340px;
+}
+.account h5{
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+.user_profile .form-group, .password input{
+    border: 1px solid #DFDFFC;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.user_profile .img_{
+    border-right: 1px solid #DFDFFC;
+    padding: 10px 20px ;
+}
+.user_profile .img_ img{
+    width: 15px;
+}
+.user_profile input{
+    border: none;
+    padding: 10px;
+    font-size: 13px;
+    width: 100%;
+    outline: none;
+}
+.account button{
+    background: #5D5FEF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.password .form-group img{
+    width: 35px;
+}
+.password input{
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+}
+.subscriptions .row{
+    --bs-gutter-x: 0rem;
+}
+.arrows{
+    margin-left: -20px;
+}
+.arrows img{
+    margin-left: 25px;
+    width: 8px;
+}
+.account .content{
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    border: 5px;
+    height: 250px;
+}
+.subscriptions p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: 9%;
+}
+.account .recent-project{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+@media only screen and (max-width:768px){
+    .account{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .row{
+        display: block!important;
+    }
+    .col{
+        margin-bottom: 20px;
+    }
+}

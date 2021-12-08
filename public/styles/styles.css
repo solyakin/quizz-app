@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+h3{
+    font-size: 27px;
+    font-weight: 600;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+.sign-in-form{
+    margin: 30px auto;
+    display: flex;
+}
+button{
+    border: none;
+    padding: 10px;
+}
+button > a{
+    color: white;
+}
+.left-wrapper{
+    background-image: url(../../assets/unsplash_Xaanw0s0pMk.png);
+    flex: .2;
+    position: relative;
+    height: 600px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logo img{
+    width: 90px;
+}
+.left-wrapper p{
+    margin-top: 30%;
+    width: 270px;
+    margin-left: 30px;
+    color: white;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-right: 20px;
+}
+.left-wrapper .clock{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.clock img{
+    border-bottom-left-radius: 15px;
+    width: 350px;
+}
+.right-wrapper{
+    flex: .8;
+    padding-top: 30px;
+    background: #F9F9F9;
+    padding-right: 30px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.select-language{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    float: right;
+    clear: left;
+}
+.select-language img{
+    width: 16px;
+    height: 16px;
+}
+.select-language p{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.form-container{
+    margin-top: 16%;
+}
+.form-container form p{
+    margin-bottom: 2rem;
+}
+.form-container form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DBDDE0;
+    margin-bottom: 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    outline: none;
+}
+.remember-password{
+    display: flex;
+    align-items: center;
+}
+.remember-password img{
+    width: 40px;
+    margin-right: 20px;
+}
+.form-container .remember-password p{
+    margin-bottom: 0;
+}
+.remember-password p a{
+    margin-left: 30px;
+    color: lightslategrey;
+    text-decoration: none;
+}
+form button{
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    background: #5D5FEF;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 990px) {
+    .clock img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sign-in-form{
+        display: block;
+    }
+    .left-wrapper{
+        display: none;
+    }
+    .right-wrapper{
+        padding: 20px;
+        border-radius: 5px;
+        padding-bottom: 9rem;
+        width: 80%;
+        margin: auto;
+        flex: 1;
+    }
+    .form-container{
+        margin-top: 25%;
+    }
+    form h3{
+        font-size: 18px;
+    }
+    form p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 480px){
+    .right-wrapper{
+        width: 94%;
+        margin: auto;
+    }
+    .remember-password{
+        display: block;
+    }
+    .remember-password p:last-child{
+        margin-top: 1rem;
+    }
+    .remember-password p a{
+        margin-left: 0;
+    }
+}

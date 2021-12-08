@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/pages/home/home.css">
+    <link rel="stylesheet" href="/pages/account/account.css">
+    <link rel="stylesheet" href="/pages/home/home.css">
+    <title>Quiz App | Home</title>
+</head>
+<body class="home">
+    <div class="mobile-tag hide">
+        <div class="header">
+            <img id="hamburger" class="ham" src="/assets/hamburger.png" alt="hamburger">
+            <img class="logo-mobile" src="/assets/logo2.svg" alt="quizz logo">
+        </div>
+        
+        <div class="dashboard_tags" id="ham-list">
+            <div class="container">
+                <div class="d-flex align-center justify-content-between mb-4">
+                    <img id="close" src="/assets/times-circle-regular.svg" alt="close-icon" width="20px">
+                    <img class="logo-mobile" src="/assets/logo2.svg" alt="quizz logo">
+                </div>
+            </div>
+            <div class="tags">
+                <a href="/pages/home/home.html">
+                    <div class="d-flex align-center justify-content-center mb-4">
+                        <!-- <img src="/assets/grid2.svg" alt=""> -->
+                        <p>Dashboard</p>
+                    </div>
+                </a>
+                <a href="/pages/integration/index.html">
+                    <div class="d-flex align-center justify-content-center mb-4">
+                        <!-- <img src="/assets/sliders.svg" alt=""> -->
+                        <p>Integration</p>
+                    </div>
+                </a>
+                <div class="d-flex align-center justify-content-center mb-4">
+                    <!-- <img src="/assets/circle.svg" alt=""> -->
+                    <p>Support</p>
+                </div>
+                <div class="d-flex align-center justify-content-center mb-4">
+                    <!-- <img src="/assets/flag.svg" alt=""> -->
+                    <p>Select Language</p>
+                    <img src="/assets/down.svg" alt="">
+                </div>
+                <div class="user d-flex align-center justify-content-center mb-4">
+                    <div class="edit-user">
+                        <div class="user-detail mb-1">
+                            <a href="/pages/account/account.html">
+                                <img src="/assets/01.png" alt="user-photo">
+                                <p>My profile</p>
+                            </a>
+                        </div>
+                        <div class="logout">
+                            <a href="">
+                                <img src="/assets/log out.svg" alt="logout-icon">
+                                <p>Log Out</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row_ mt-4">
+                    <div class="container">
+                        <div class="d-flex align-center justify-content-center mb-4">
+                            <button>
+                                <a href="/index.html">Login</a>
+                            </button>
+                            <button>
+                                <a href="/pages/signup/signUp.html">Sign Up</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="main-wrapper">
+        <div class="dashboard-tags">
+            <img class="logo" src="/assets/logo2.svg" alt="quizz logo">
+            <div class="tags">
+                <div class="tag-item">
+                    <img src="/assets/grid.svg" alt="">
+                    <p>Dashboard</p>
+                </div>
+                <div class="tag-item">
+                    <img src="/assets/sliders.svg" alt="">
+                    <p>Integration</p>
+                </div>
+                <div class="tag-item">
+                    <img src="/assets/circle.svg" alt="">
+                    <p>Support</p>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="language">
+                    <img src="/assets/flag.svg" alt="">
+                    <p>Select Language</p>
+                    <img src="/assets/down.svg" alt="">
+                </div>
+                <div class="user">
+                    <img src="/assets/01.png" alt="user avatar">
+                    <p>Username</p>
+                    <img src="/assets/more vertical.svg" alt="more vertical" id="moreBtn">
+                    
+                    <div class="toggler_wrapper">
+                        <div class="edit_user">
+                            <div class="user-detail mb-1">
+                                <a href="/pages/account/account.html">
+                                    <img src="/assets/01.png" alt="user-photo">
+                                    <p>My profile</p>
+                                </a>
+                            </div>
+                            <div class="logout">
+                                <a href="">
+                                    <img src="/assets/log out.svg" alt="logout-icon">
+                                    <p>Log Out</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="notification">
+                    <img src="/assets/notification on.svg" alt="notification bell"/>
+                    <p>Notifications</p>
+                </div>
+            </div>
+        </div>
+        <div class="template-main account">
+            <div class="row">
+                <div class="col">
+                    <div class="user_profile">
+                        <h5>Profile</h5>
+                        <div class="form-group d-flex align-center">
+                            <div class="img_">
+                                <img src="/assets/01.png" alt="user-photo">
+                            </div>
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="form-group d-flex align-center">
+                            <div class="img_">
+                                <img src="/assets/user.svg" alt="user-photo">
+                            </div>
+                            <input type="text" placeholder="User Name">
+                        </div>
+                        <div class="form-group d-flex align-center">
+                            <div class="img_">
+                                <img src="/assets/mail.svg" alt="user-photo">
+                            </div>
+                            <input type="text" placeholder="Email Address">
+                        </div>
+                        <button>Save</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="password">
+                        <h5>Password</h5>
+                        <div class="form-group d-flex align-center justify-content-between mb-3">
+                            <p>Change Password</p>
+                            <img src="/assets/Toggle2.svg" alt="toggle-btn">
+                        </div>
+                        <input type="password" placeholder="password">
+                        <input type="password" placeholder="confirm pasword">
+                        <button>Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="subscriptions">
+                <div class="row mt-3">
+                    <div class="col-lg-12">
+                        <div class="content">
+                            <h5>Subscriptions</h5>
+                            <p>You have not subscribed for any product yet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-project mt-3">
+                <div class="head-title d-flex align-center justify-content-between">
+                    <h5>Recent Projects</h5>
+                    <div class="arrows d-flex align-center">
+                        <img src="/assets/left.svg" alt="left-arrow-icon" class="mr-2">
+                        <img src="/assets/right.svg" alt="right-arrow-icon">
+                    </div>
+                </div>
+            <div class="templates-card">
+                <div class="card">
+                    <img src="/assets/Rectangle 11.png" class="card-img-top" alt="item">
+                    <div class="card-body">
+                        <div class="card-row">
+                            <h5 class="card-title">Quiz Title</h5>
+                            <img src="/assets/more vertical.svg" alt="" class="edit-btn">
+                        </div>
+                      <p class="card-text">Date Created</p>
+                    </div>
+
+                    <div class="card-options">
+                        <div class="item">
+                            <img src="/assets/edit.svg" alt="" >
+                            <p>Edit</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/copy.svg" alt="">
+                            <p>Copy</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 5.svg" alt="">
+                            <p>Preview</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 6.svg" alt="">
+                            <p>Analytics</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/share.svg" alt="">
+                            <p>Share</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/delete.svg" alt="">
+                            <p>Delete</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/Rectangle 11.png" class="card-img-top" alt="item">
+                    <div class="card-body">
+                        <div class="card-row">
+                            <h5 class="card-title">Quiz Title</h5>
+                            <img src="/assets/more vertical.svg" alt="" class="edit-btn">
+                        </div>
+                      <p class="card-text">Date Created</p>
+                    </div>
+
+                    <div class="card-options">
+                        <div class="item">
+                            <img src="/assets/edit.svg" alt="" >
+                            <p>Edit</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/copy.svg" alt="">
+                            <p>Copy</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 5.svg" alt="">
+                            <p>Preview</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 6.svg" alt="">
+                            <p>Analytics</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/share.svg" alt="">
+                            <p>Share</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/delete.svg" alt="">
+                            <p>Delete</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/Rectangle 11.png" class="card-img-top" alt="item">
+                    <div class="card-body">
+                        <div class="card-row">
+                            <h5 class="card-title">Quiz Title</h5>
+                            <img src="/assets/more vertical.svg" alt="" class="edit-btn">
+                        </div>
+                      <p class="card-text">Date Created</p>
+                    </div>
+
+                    <div class="card-options">
+                        <div class="item">
+                            <img src="/assets/edit.svg" alt="" >
+                            <p>Edit</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/copy.svg" alt="">
+                            <p>Copy</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 5.svg" alt="">
+                            <p>Preview</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 6.svg" alt="">
+                            <p>Analytics</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/share.svg" alt="">
+                            <p>Share</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/delete.svg" alt="">
+                            <p>Delete</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/Rectangle 11.png" class="card-img-top" alt="item">
+                    <div class="card-body">
+                        <div class="card-row">
+                            <h5 class="card-title">Quiz Title</h5>
+                            <img src="/assets/more vertical.svg" alt="" class="edit-btn">
+                        </div>
+                      <p class="card-text">Date Created</p>
+                    </div>
+
+                    <div class="card-options">
+                        <div class="item">
+                            <img src="/assets/edit.svg" alt="" >
+                            <p>Edit</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/copy.svg" alt="">
+                            <p>Copy</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 5.svg" alt="">
+                            <p>Preview</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/Group 6.svg" alt="">
+                            <p>Analytics</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/share.svg" alt="">
+                            <p>Share</p>
+                        </div>
+                        <div class="item">
+                            <img src="/assets/delete.svg" alt="">
+                            <p>Delete</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="/public/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

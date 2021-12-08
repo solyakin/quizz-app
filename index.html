@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/styles/styles.css">
+    <link rel="stylesheet" href="/pages/home/home.css">
+    <title>Quizz App | Sign-In Page</title>
+</head>
+<body>
+    <div class="mobile-tag hide">
+        <div class="header">
+            <img id="hamburger" class="ham" src="/assets/hamburger.png" alt="hamburger">
+            <img class="logo-mobile" src="/assets/logo2.svg" alt="quizz logo">
+        </div>
+        
+        <div class="dashboard_tags" id="ham-list">
+            <div class="container">
+                <div class="d-flex align-center justify-content-between mb-4">
+                    <img id="close" src="/assets/times-circle-regular.svg" alt="close-icon" width="20px">
+                    <img class="logo-mobile" src="/assets/logo2.svg" alt="quizz logo">
+                </div>
+            </div>
+            <div class="tags">
+                <a href="/pages/home/home.html">
+                    <div class="d-flex align-center justify-content-center mb-4">
+                        <!-- <img src="/assets/grid2.svg" alt=""> -->
+                        <p>Dashboard</p>
+                    </div>
+                </a>
+                <a href="/pages/integration/index.html">
+                    <div class="d-flex align-center justify-content-center mb-4">
+                        <!-- <img src="/assets/sliders.svg" alt=""> -->
+                        <p>Integration</p>
+                    </div>
+                </a>
+                <div class="d-flex align-center justify-content-center mb-4">
+                    <!-- <img src="/assets/circle.svg" alt=""> -->
+                    <p>Support</p>
+                </div>
+                <div class="d-flex align-center justify-content-center mb-4">
+                    <!-- <img src="/assets/flag.svg" alt=""> -->
+                    <p>Select Language</p>
+                    <img src="/assets/down.svg" alt="">
+                </div>
+                <div class="user d-flex align-center justify-content-center mb-4">
+                    <div class="edit-user">
+                        <div class="user-detail mb-1">
+                            <a href="/pages/account/account.html">
+                                <img src="/assets/01.png" alt="user-photo">
+                                <p>My profile</p>
+                            </a>
+                        </div>
+                        <div class="logout">
+                            <a href="">
+                                <img src="/assets/log out.svg" alt="logout-icon">
+                                <p>Log Out</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row_ mt-4">
+                    <div class="container">
+                        <div class="d-flex align-center justify-content-center mb-4">
+                            <button>
+                                <a href="/index.html">Login</a>
+                            </button>
+                            <button>
+                                <a href="/pages/signup/signUp.html">Sign Up</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sign-in-form">
+            <div class="left-wrapper">
+                <div class="logo">
+                    <img src="/assets/logo.svg" alt="quizz logo">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate eu, elementum viverra felis. Eget ac ultrices ut eu,</p>
+                <div class="clock">
+                    <img src="/assets/clock.png" alt="clock">
+                </div>
+            </div>
+            <div class="right-wrapper">
+                <div class="select-language">
+                    <img src="/assets/flag.svg" alt="flag">
+                    <p>Select Language</p>
+                    <img src="/assets/down.svg" alt="caret down">
+                </div>
+                <div class="form-container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <form action="">
+                                <h3>Sign In</h3>
+                                <p>Haven’t signed Up? 
+                                    <span>
+                                        <a href="/pages/signup/signUp.html">Sign Up</a>
+                                    </span>
+                                </p>
+                                <input type="text" placeholder="Email Address*"><br>
+                                <input type="password" placeholder="Enter Password*">
+                                <div class="remember-password">
+                                    <img src="/assets/Toggle.svg" alt="toggle button">
+                                    <p>Remember Me</p>
+                                    <p>
+                                        <a href="/pages/forgetPass/forgetPass.html">Forgot Password?</a>
+                                    </p>
+                                </div>
+    
+                                <button>
+                                    <a href="/pages/signup/signUp.html">Sign In</a>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/public/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
