@@ -46,3 +46,20 @@
 .flex-wrapper img{
     width: 40px;
 }
+.toggle-icon, .toggle_icon_2, .toggle_icon_3, .toggle_icon_4, .toggle_icon_5, .toggle_icon_6{
+    background-color: #c4c4c4;
+    border-radius: 25px;
+    padding: 2px 6px;
+    margin-right: 10px;
+    width: 40px;
+}
+.toggle-icon img, .toggle_icon_2 img, .toggle_icon_3 img, .toggle_icon_4 img, .toggle_icon_5 img, .toggle_icon_6 img{
+    height: 15px;
+    width: 15px;
+}
+.effect, .effect2, .effect3, .effect4, .effect5, .effect6{
+    background-color: #5D5FEF;
+}
+.toggle-move, .toggle-move2, .toggle-move3, .toggle-move4, .toggle-move5, .toggle-move6{
+    transform: translateX(10px);
+}

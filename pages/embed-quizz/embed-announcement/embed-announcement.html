@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/pages/home/home.css">
     <link rel="stylesheet" href="/pages/createQuiz/createQuiz.css">
     <link rel="stylesheet" href="/pages/share-quiz/share-quiz.css">
+    <link rel="stylesheet" href="/pages/embed-quizz/embed-announcement/announcement.css">
     <title>Quiz App | Embed Quiz web</title>
 </head>
 <body class="create-quizz share-quiz announcement">
@@ -18,7 +19,7 @@
         <div class="dashboard-tags">
             <img class="logo" src="/assets/logo2.svg" alt="quizz logo">
             <div class="tags">
-                <div class="tag-item">
+                <div class="tag-item current">
                     <img src="/assets/grid.svg" alt="">
                     <p>Dashboard</p>
                 </div>
@@ -86,7 +87,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="overlay">
                 <div class="share-box">
                     <h4>Add As Announcement Bar
@@ -101,17 +101,46 @@
                         </div>
                         <button>Copy code to clipboard</button>
                     </div>
-                    <div class="edit-announcement-wrapper">
+                    <div class="edit-announcement-wrapper mt-5 d-flex align-top justify-content-between flex-wrap">
                         <div class="edit-announcement">
                             <div class="form-group">
-                                <h5>Edit Announcement Bar</h5>
-                                <input type="text" placeholder="Hey, Take a quiz and get chance to win">
+                                <h5 class="mb-2">Edit Announcement Bar</h5>
+                                <input type="text" placeholder="Hey, Take a quiz and get chance to win" class="long">
                             </div>
                             <div class="form-group">
-                                <h5>Button Text</h5>
-                                <input type="text" placeholder="Start Quiz">
+                                <h5 class="mb-2">Button Text</h5>
+                                <input type="text" placeholder="Start Quiz" class="long">
+                            </div>
+                            <div class="form-group d-flex color-picker">
+                                <h5>Background Color</h5>
+                                <input type="color" value="">
+                            </div>
+                            <div class="form-group d-flex color-picker">
+                                <h5>Font Color</h5>
+                                <input type="color">
+                            </div>
+                            <div class="form-group d-flex color-picker">
+                                <h5>Button Color</h5>
+                                <input type="color">
+                            </div>
+                            <div class="form-group d-flex">
+                                <h5>Add Logo</h5>
+                                <div class="toggle-icon">
+                                    <img src="/assets/white.svg" alt="white-dot" class="white">
+                                </div>
                             </div>
                         </div>
+
+                        <div class="schedule-quiz">
+                            <div class="heading-quiz d-flex align-center">
+                                <h5>Schedule Quiz</h5>
+                                <div class="toggle-icon2">
+                                    <img src="/assets/white.svg" alt="white-dot" class="white2">
+                                </div>
+                            </div>
+                            <img src="/assets/Group 411.svg" class="template" alt="">
+                        </div>
+                        
                     </div>
 
                     <div class="bottom-btns">
@@ -120,10 +149,9 @@
                     </div>
                 </div>
             </div>
-            
         </div>
     </div>
-
+    <script src="/public/announcement.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -16,7 +16,7 @@ a{
     text-decoration: none;
 }
 .sign-in-form{
-    margin: 30px auto;
+    /* margin: 30px auto; */
     display: flex;
 }
 button{
@@ -30,7 +30,7 @@ button > a{
     background-image: url(../../assets/unsplash_Xaanw0s0pMk.png);
     flex: .2;
     position: relative;
-    height: 600px;
+    height: 620px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -86,6 +86,7 @@ button > a{
 }
 .form-container{
     margin-top: 16%;
+    margin-left: 10%;
 }
 .form-container form p{
     margin-bottom: 2rem;
@@ -115,6 +116,16 @@ button > a{
     color: lightslategrey;
     text-decoration: none;
 }
+.toggle-icon{
+    background-color: #c4c4c4;
+    border-radius: 25px;
+    padding: 2px 6px;
+    margin-right: 10px;
+}
+.toggle-icon img{
+    height: 15px;
+    width: 15px;
+}
 form button{
     padding: 10px 40px;
     color: white;
@@ -123,6 +134,12 @@ form button{
     background: #5D5FEF;
     margin-top: 50px;
     border-radius: 5px;
+}
+.effect{
+    background-color: #5D5FEF;
+}
+.toggle-move{
+    transform: translateX(20px);
 }
 @media screen and (max-width: 990px) {
     .clock img{
@@ -146,6 +163,7 @@ form button{
     }
     .form-container{
         margin-top: 25%;
+        margin-left: 0%;
     }
     form h3{
         font-size: 18px;

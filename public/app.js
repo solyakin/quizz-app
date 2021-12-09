@@ -36,8 +36,18 @@ const addIncentive = document.getElementById("add-incentive");
 const addMedia = document.getElementById("add-media");
 const editBtn = document.getElementById("edit-btn");
 const toggleText = document.querySelector(".toggle-content");
-
-
+const toggleIcon2 = document.querySelector(".toggle_icon_2");
+const whiteBtn = document.querySelector(".white2");
+const whiteBtn3 = document.querySelector(".white3");
+const whiteBtn4 = document.querySelector(".white4");
+const whiteBtn5 = document.querySelector(".white5");
+const whiteBtn6 = document.querySelector(".white6");
+const toggleIcon3 = document.querySelector(".toggle_icon_3");
+const toggleIcon4 = document.querySelector(".toggle_icon_4");
+const toggleIcon5 = document.querySelector(".toggle_icon_5");
+const toggleIcon6 = document.querySelector(".toggle_icon_6");
+const timer = document.getElementById("timer");
+const Skippable = document.getElementById("Skippeable");
 if(toggleBtn){
   toggleBtn.addEventListener("click", ()=> {
     catergory.classList.toggle("sub-category-img")
@@ -204,12 +214,28 @@ selectBtn3.addEventListener("click", () => {
 if(answer){
   answer.addEventListener("click", () => {
     box1.classList.toggle("box-1");
+    toggleIcon2.classList.toggle('effect2')
+    whiteBtn.classList.toggle('toggle-move2')
   })
   correct.addEventListener("click", () => {
     box2.classList.toggle("box-2");
+    toggleIcon3.classList.toggle("effect3");
+    whiteBtn3.classList.toggle('toggle-move3')
   })
   settings.addEventListener("click", () => {
     box3.classList.toggle("box-3");
+    toggleIcon4.classList.toggle('effect4');
+    whiteBtn4.classList.toggle('toggle-move4');
+  })
+  timer.addEventListener("click", () => {
+    // box3.classList.toggle("box-3");
+    toggleIcon5.classList.toggle('effect5');
+    whiteBtn5.classList.toggle('toggle-move5');
+  })
+  Skippable.addEventListener("click", () => {
+    // box3.classList.toggle("box-3");
+    toggleIcon6.classList.toggle('effect6');
+    whiteBtn6.classList.toggle('toggle-move6');
   })
 }
 

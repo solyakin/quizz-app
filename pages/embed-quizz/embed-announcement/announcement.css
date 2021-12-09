@@ -1,0 +1,110 @@
+.announcement{
+    overflow: scroll;
+}
+.announcement .overlay{
+    height: 100%;
+}
+.announcement .setting-embed{
+    text-align: left;
+}
+.announcement .setting-embed button{
+    margin-left: 10%;
+}
+.edit-announcement-wrapper{
+    margin: 20px 30px;
+    text-align: left;
+    margin-bottom: 7rem;
+}
+.edit-announcement-wrapper h5{
+    font-size: 15px;
+    font-weight: 400;
+}
+.edit-announcement-wrapper .color-picker input{
+    background: white;
+    border: 1px solid #c4c4c4;
+    width: 100px;
+    border-radius: 2px;
+}
+.edit-announcement-wrapper input{
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px solid #c4c4c4;
+}
+.edit-announcement-wrapper .long{
+    width: 100%;
+}
+.edit-announcement-wrapper .form-group{
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.edit-announcement-wrapper .form-group h5{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.edit-announcement{
+    width: 350px;
+}
+.schedule-quiz .template{
+    width: 350px;
+}
+.schedule-quiz h5{
+    margin-right: 30px;
+}
+.toggle-icon{
+    background-color: #c4c4c4;
+    border-radius: 25px;
+    padding: 2px 6px;
+    margin-right: 10px;
+    width: 40px;
+}
+.toggle-icon img{
+    height: 15px;
+    width: 15px;
+}
+.toggle-icon2{
+    background-color: #c4c4c4;
+    border-radius: 25px;
+    padding: 2px 6px;
+    margin-right: 10px;
+    width: 40px;
+}
+.toggle-icon2 img{
+    height: 15px;
+    width: 15px;
+}
+.effect{
+    background-color: #5D5FEF;
+}
+.toggle-move{
+    transform: translateX(10px);
+}
+.effect2{
+    background-color: #5D5FEF;
+}
+.toggle-move2{
+    transform: translateX(10px);
+}
+@media screen and (max-width: 678px){
+    .edit-announcement{
+        width: 100%;
+    }
+    .schedule-quiz{
+        margin-top: 4rem;
+    }
+    .schedule-quiz .template{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px){
+    .announcement .overlay{
+        height: 180%;
+    }
+    .edit-announcement-wrapper .color-picker input{
+        width: 50px;
+    }
+    .heading-quiz{
+        justify-content: space-between;
+    }   
+}
