@@ -50,6 +50,7 @@ const timer = document.getElementById("timer");
 const Skippable = document.getElementById("Skippeable");
 if(toggleBtn){
   toggleBtn.addEventListener("click", ()=> {
+    console.log("click")
     catergory.classList.toggle("sub-category-img")
   })
   showImage.addEventListener("click", () => {
@@ -241,24 +242,33 @@ if(answer){
 
 
 //ADD-EDIT RESULT
-addText.addEventListener("click", () => {
-  toggleText.classList.toggle("toggle-content");
+if(addText){
+  addText.addEventListener("click", () => {
+    toggleText.classList.toggle("toggle-content");
+  
+  });
+}
 
-});
-const showMedia = document.querySelector(".social-content");
+if(addMedia){
+  const showMedia = document.querySelector(".social-content");
+  addMedia.addEventListener("click", () => {
+    showMedia.classList.toggle("social-content");
+  })
+}
 
-addMedia.addEventListener("click", () => {
-  showMedia.classList.toggle("social-content");
-})
+if(addIncentive){
+  const showIncentive = document.querySelector(".incentive-content");
+  addIncentive.addEventListener("click", () => {
+    showIncentive.classList.toggle("incentive-content");
+  })
+}
 
-const showIncentive = document.querySelector(".incentive-content");
-addIncentive.addEventListener("click", () => {
-  showIncentive.classList.toggle("incentive-content");
-})
+if(editBtn){
+  const showBtns = document.querySelector(".btns-list");
+  editBtn.addEventListener("click", () => {
+    showBtns.classList.toggle("btns-list");
+  });
+}
 
-const showBtns = document.querySelector(".btns-list");
-editBtn.addEventListener("click", () => {
-  showBtns.classList.toggle("btns-list");
-});
 
 

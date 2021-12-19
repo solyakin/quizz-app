@@ -34,9 +34,16 @@
 
             <div class="controls">
                 <div class="language">
-                    <img src="/assets/flag.svg" alt="">
-                    <p>Select Language</p>
-                    <img src="/assets/down.svg" alt="">
+                    <div class="select-language">
+                        <img src="/assets/flag.svg" alt="flag">
+                        <div class="form-group">
+                            <select name="language" id="">
+                                <option value="">Select Language</option>
+                                <option value="">English</option>
+                                <option value="">French</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 <div class="user">
                     <img src="/assets/01.png" alt="user avatar">
@@ -95,7 +102,10 @@
                         <div class="schedule">
                             <div class="schedule-btn">
                                 <p>Schedule Quiz</p>
-                                <img src="/assets/Toggle.svg" alt="">
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
                             </div>
                             <button>Reset Code</button>
                         </div>

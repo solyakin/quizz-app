@@ -41,19 +41,23 @@ button > a{
     width: 80px;
 }
 .main-wrapper{
-    display: flex;
+    /* display: flex; */
     background: #F9F9F9;
     min-height : 100vh;
+    width: 100%!important;
+    /* flex: 1; */
 }
 .dashboard-tags{
-    flex: .15;
+    /* flex: .15; */
     background: #F6F4FF;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
+    width: 198px;
+    position: fixed;
+    height: 100vh;
 }
 .dashboard_tags{
     display: none;
-    
 }
 .header{
     display: none;
@@ -113,6 +117,17 @@ button > a{
     margin-left: 10px;
     margin-right: 10px;
 }
+.controls .select-language{
+    display: flex;
+    align-items: center;
+}
+.controls .select-language select{
+    border: none;
+    font-size: 14px;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+}
 .controls .user{
     position: relative;
 }
@@ -141,8 +156,9 @@ button > a{
     text-decoration: none;
 } 
 .template-main{
-    flex: .85;
+    /* flex: .85; */
     padding: 30px 20px;
+    margin-left: 198px;   
 }
 .template-heading{
     display: flex;
@@ -372,6 +388,7 @@ background: #555;
     .template-main{
         flex: 1;
         padding: 3%;
+        margin-left: 0;
     }
     .templates-card{
         padding-right: 0;
