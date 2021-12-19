@@ -37,8 +37,8 @@
     /* margin-right: 15px; */
     margin-bottom: 10px;
 }
-.row_ p{
-    text-align: center;
+.integration-all p{
+    text-align: center!important;
     margin-top: 10px;
 }
 /* .edit-user{
